@@ -1,0 +1,23 @@
+{
+    "name": "jyoungblood/s3-client",
+    "description": "A standalone Amazon S3 (REST) client for PHP using CURL that does not require PEAR.",
+    "type": "library",
+    "homepage": "https://github.com/jyoungblood/s3-client",
+    "license": "BSD-2-Clause",
+    "authors": [
+        {
+            "name": "Donovan Schönknecht",
+            "email": "don@tpyo.net"
+        },
+        {
+          "name": "Jonathan Youngblood",
+          "email": "jonathan.youngblood@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.2.0"
+    },
+    "autoload": {
+        "classmap": ["S3.php"]
+    }
+}
